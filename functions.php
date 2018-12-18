@@ -110,7 +110,7 @@ if( !function_exists('is_alphabets') ){
 	}
 }
 
-if( !function_exists('is_alphabets') ){
+if( !function_exists('is_valid_email') ){
 	// check valid email
 	function is_valid_email( $email="" ){
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL))
